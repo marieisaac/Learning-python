@@ -1,0 +1,12 @@
+import Tkinter
+window= Tkinter.Tk()
+
+
+lbl_title = Tkinter.Label(window, text="Guess A Number Between 1-100")
+lbl_title.pack()
+
+lbl_check = Tkinter.Button(window, text= "Check", fg="green", command=window.quit)
+lbl_check.pack()
+
+txt_guess = Tkinter.Entry(window, width=3)
+txt_guess.pack()
