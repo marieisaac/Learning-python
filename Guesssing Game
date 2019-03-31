@@ -1,0 +1,14 @@
+
+guess=int(input("guess the number"))
+print("Choose a number between 1-100")
+choices=list(range(1,100))
+import random
+answer=random.choice(choices)
+# print(answer)
+
+if (answer == guess):
+    print("You Win!")
+elif answer>guess:
+    print ("guess higher")
+elif answer<guess:
+    print ("guess lower")
